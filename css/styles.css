@@ -1,0 +1,177 @@
+body {
+  font-family: "montserrat";
+  font-weight: 300;
+}
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: -1;
+}
+
+/* title fonts */
+h1 {
+  font-family: "Montserrat bold", sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 10% 0%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item {
+  font-family: "ubuntu";
+  font-size: 1.2rem;
+  padding-top: 0.9375rem;
+}
+
+/* buttons */
+.button-edit {
+  margin: 0 0.625rem 0 0;
+}
+
+/* img edit */
+.img {
+  margin-left: 100px;
+  margin-top: 30px;
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+}
+
+/* icons align div 2 */
+.iconsalign {
+  text-align: center;
+  margin: 0% 15% 4% 15%;
+  padding-top: 4%;
+  line-height: 2;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 1rem 4rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+h3 {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+h2 {
+  font-family: "montserrrat-bold";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 20%;
+  margin: 2rem;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing  */
+.buttonadjust {
+  width: 100%;
+}
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.column-pricing {
+  padding: 3% 2%;
+}
+
+/* .zindex {
+  z-index: -1;
+} */
+
+#features {
+  position: relative;
+  /* z-index: ; */
+  background-color: #ffffff;
+}
+
+.card-type-align {
+  padding: 0% 2%;
+}
+
+.section-1 {
+  margin-bottom: 60px;
+}
+
+/* call to action  */
+
+#cta {
+  background-color: #ff4c68;
+
+  height: 300px;
+}
+.cta-head {
+  font-family: "montserrat-black";
+  font-weight: bolder;
+  color: #ffffff;
+  padding: 7% 30%;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  line-height: 7;
+}
+
+.footer-edit {
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 2;
+  height: 200px;
+}
+.smallicons {
+  margin: 1% 2%;
+}
+/* #footer {
+  margin-bottom: %;
+} */
+
+@media (max-width: 1036px) {
+  .img {
+    /* margin-left: 100px;
+    margin-top: 30px; */
+    width: 60%;
+    transform: rotate(0deg);
+    position: static;
+  }
+  .section-1 {
+    text-align: center;
+  }
+}
